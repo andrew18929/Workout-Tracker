@@ -17,7 +17,9 @@
     "mongoose": "^5.3.16",
     "morgan": "^1.9.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/andrew18929/Workout-Tracker.git"
