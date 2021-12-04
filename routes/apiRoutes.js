@@ -47,7 +47,7 @@ router.get("/api/workouts", (req, res) => {
 });
 
 // code route to find the details of the past 7 workouts
-router.get("api/workouts/range", (req, res) => {
+router.get("/api/workouts/range", (req, res) => {
   db.Workout.aggregate([
     {
       $addFields: {
